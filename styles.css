@@ -1,2 +1,120 @@
 
-/*CSS Style sheet for roberthogan.xyz webpage*/
+/*CSS Style sheet for roberthogan.xyz webpage
+change text sizes to em*/
+
+@font-face {
+    font-family: 'Crimson Text';
+    src: url(https://fonts.gstatic.com/s/crimsontext/v6/3IFMwfRa07i-auYR-B-zNXhCUOGz7vYGh680lGh-uXM.woff);
+}
+@font-face {
+    font-family: 'Crimson Text';
+    src: url(https://fonts.gstatic.com/s/crimsontext/v6/4j4TR-EfnvCt43InYpUNDKxza3rXaV_G32gF04a66fI.woff);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Stalemate';
+    src: url(https://fonts.gstatic.com/s/stalemate/v4/ILXfSNYxooD2TPt48NlaPz8E0i7KZn-EPnyo3HZu7kw.woff);
+}
+
+
+#nav-btns {
+list-style-type: none;
+margin-left: -8px;
+margin-right: 0;
+padding: 0;
+position: fixed;
+top: 0;
+width: 100%;
+background-color: rgba(220, 220, 220, 0.8);
+box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.35);
+left: 8px;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+li .nav {
+font-family: "Crimson Text";
+float: right;
+text-decoration: none;
+text-align: center;
+font-size: 1.3em;
+color: black;
+display: block;
+padding: 40px 16px 19.5px;
+margin: -15px 0px 0px 0px;
+}/*also wish to animate the text on hover.*/
+
+li .nav:hover {
+background-color: rgba(230, 0, 0, 0.95);
+cursor: pointer;
+font-family: "Crimson Text";
+font-style: italic;
+font-size: 1.3em;
+padding-top: 27px;
+padding-bottom: 17.5px;
+margin-top: 0px;
+}
+
+#nav-title {
+float: left;
+padding: -15px 16px;
+padding-left: 50px;
+margin-top: 20px;
+margin-bottom: -1px;
+display: block;
+font-family: "Stalemate";
+font: 600;
+font-size: 3em;
+}/*need to find a different "handwritten" type font for the tile*/
+
+#nav-contact {
+margin-right: 16px;
+}
+
+.body {
+background: #e5e600;
+background: linear-gradient(to bottom, #e5e600 0%, #e60000 100%) no-repeat;
+height: 1200px;
+margin-top: 79px;
+}
+
+#main {
+    background: rgba(255, 255, 255, 0.75);
+    height: 1200px;
+}
+ 
+#mainbody-blank1 {
+    background: #0000e6;
+    opacity: 0.75;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    height: 1200px;
+}
+
+#mainbody-blank {
+    background: #0000e6;
+    opacity: 0.75;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    height: 1200px;
+}
+
+.blurb {
+    margin-top: 20px;
+    
+}
+
+.main-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: #00e5e6;
+    border-width: medium;
+    float: left;
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
